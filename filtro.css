@@ -1,6 +1,17 @@
+/* sobre a configuração de aspectos da página */
 body {
     background-color: rgb(7, 57, 7);
 }
+
+
+/* Sobre a configuração de imagens */
+#imagem {
+    float: right;
+    margin-left: 5px; 
+    width: 400px; 
+    height: auto;
+}
+
 
 /* Sobre a configuração dos textos */
 .texto{
@@ -34,6 +45,7 @@ body {
 
 #titulocontexto {
     font-size: 200%;
+    background-color: rgb(3, 29, 3);
 }
 
 #contextodiv {
@@ -42,4 +54,11 @@ body {
     justify-content: center;
     padding-bottom: 2px;
     padding-top: 2px;
+    display: none;
+    overflow: auto;
+}
+
+.textodiv1 {
+    font-size: 120%;
+    color: rgb(74, 234, 82);
 }
