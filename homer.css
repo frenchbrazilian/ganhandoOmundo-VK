@@ -1,0 +1,40 @@
+#introduzzione {
+    color: #FFF;
+    font-size: 75px;
+}
+
+/* sobre a configuração de aspectos da página */
+body {
+    background-color: rgb(7, 57, 7);
+}
+
+
+/*menu brabo */
+
+ul {
+    margin: 0;
+    padding:0;
+}
+
+li {
+    list-style: none; 
+    margin: 10px;
+    display: inline;
+}
+li a {
+    padding: 5px 10px; 
+    margin:0;
+    border: 0px solid #f00; 
+    background: #903;
+    text-decoration: none;
+    color:#FFF;
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+li a:hover {
+    background: #CCC;
+    color: #000; 
+    border-color: #000;
+}
