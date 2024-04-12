@@ -24,17 +24,17 @@ li {
 li a {
     padding: 5px 10px; 
     margin:0;
-    border: 0px solid #f00; 
-    background: #903;
+    border: 0px solid rgb(11, 111, 11);
+    background: rgb(3, 29, 3);
     text-decoration: none;
-    color:#FFF;
+    color:rgb(74, 234, 82);
     /* cantos arredondados */
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
     border-radius:5px;
 }
 li a:hover {
-    background: #CCC;
-    color: #000; 
+    background: rgb(74, 234, 82);
+    color: rgb(3, 29, 3);
     border-color: #000;
 }

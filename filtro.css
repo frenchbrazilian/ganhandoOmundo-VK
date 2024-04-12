@@ -76,25 +76,48 @@ ul {
     padding:0;
 }
 
+/*botões brabos*/
+#botaotexto1 {
+    background-color: rgb(74, 234, 82);
+    color: rgb(3, 29, 3);
+    padding: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#botaotexto1:hover{
+    color: rgb(74, 234, 82);
+    background-color: rgb(3, 29, 3);
+}
+
+/* a lista que eu copiei da net */
 li {
     list-style: none; 
     margin: 10px;
     display: inline;
+    list-style-position: center;
+    list-style-type: center;
+    list-style-position: inside;
+    text-align: center;
+    align-self: center;
 }
+
+
 li a {
     padding: 5px 10px; 
     margin:0;
-    border: 0px solid #f00; 
-    background: #903;
+    border: 0px solid rgb(11, 111, 11);
+    background: rgb(3, 29, 3);
     text-decoration: none;
-    color:#FFF;
+    color:rgb(74, 234, 82);
     /* cantos arredondados */
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
     border-radius:5px;
 }
 li a:hover {
-    background: #CCC;
-    color: #000; 
+    background: rgb(74, 234, 82);
+    color: rgb(3, 29, 3);
     border-color: #000;
 }

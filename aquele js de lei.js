@@ -3,9 +3,9 @@ function mostrarOcultarDiv() {
     var button = document.querySelector("button");
     if (div.style.display === "none" || div.style.display === "") {
         div.style.display = "block";
-        button.textContent = "Clique aqui para fechar o contexto";
+        button.textContent = "Fechar introdução";
     } else {
         div.style.display = "none";
-        button.textContent = "Clique aqui para ver o contexto";
+        button.textContent = "Ver introdução";
     }
 }
